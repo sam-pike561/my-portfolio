@@ -4,7 +4,8 @@ import image2 from "../SAAM-1966.39.6_1.jpg";
 import About from "./About";
 import Post from './Post';
 import Project from './Project';
-import Showcase from './Showcase';
+import Showcase from './Showcase.js';
+
 
 
 class Home extends Component {
@@ -32,6 +33,7 @@ class Home extends Component {
             View Resume
           </button>
         </section>
+        <Showcase />
       </main>
     );
   }

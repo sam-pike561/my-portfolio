@@ -16,6 +16,10 @@ function Showcase() {
         />
         <div className="showcase">
           <div className="container">
+            <h1 className=" app-title text-6xl font-bold text-gray-100 border-rounded-sm bg-blue-600 cursive leading-none lg:leading snug home-name cols-3 rounded">
+              My Apps
+
+            </h1>
             <div className="card">
               <a href="https://glacial-wave-16608.herokuapp.com/">
                 <div className="face face1">

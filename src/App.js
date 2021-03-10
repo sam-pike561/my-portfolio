@@ -7,6 +7,8 @@ import Post from './components/Post';
 import NavBar from './components/NavBar';
 import Contact from './components/Contact';
 import Showcase from './components/Showcase';
+import hello from './components/hello';
+
 
 
 
@@ -16,7 +18,7 @@ function App() {
       <NavBar />
       <Switch>
         <Route component={Home} path='/' exact />
-        <Route component={About} path='/about' />
+        <Route component={hello} path='/about' />
         <Route component={SinglePost} path='/post/:slug' />
         <Route component={Post} path='/post' />
         <Route component={Showcase} path='/project' />

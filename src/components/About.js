@@ -12,15 +12,22 @@ import '../App.css';
 export default function Home() {
   return (
       <main className="home">
+
         <img
           src={image}
           alt="key blue"
           className="home home__image no-repeat absolute center-relative object-cover w-full h-full bg-size-cover rgb(40, 204, 86)"
         />
-        <section className="mx-auto min-h-screen min-w-100px lg:pt-8 px-8">
+
+      <section className="mx-auto min-h-full min-w-100px  px-8">
+
           <br />
           <div className="relative margin-0
           flex flex-row flex-wrap p-2">
+          <h1 className=" about-title text-6xl font-bold text-gray-100 border-rounded-sm bg-purple-700 cursive leading-none lg:leading snug home-name cols-3">
+            About Me
+
+          </h1>
             <div className="mx-auto w-1/2 padding__top">
 
               <div className="relative rounded-lg shadow-lg bg-green-800 w-full flex flex-row flex-wrap p-2 antialiased" style={
@@ -50,7 +57,7 @@ export default function Home() {
               </div>
               <div className=" md:w-1/3 flex home__row ">
                 <img
-                  className="mr-4 rounded-sm border-2 border-black border-opacity-40 p-3 bg-blue-300 shadow-md float"
+                  className="rounded-sm border-2 border-black border-opacity-40 p-3 bg-blue-300 shadow-md float"
                 src="https://udemy-certificate.s3.amazonaws.com/image/UC-ec1fedab-adaa-42e9-9ce7-06c0eb988a3c.jpg?v=1613199815000" alt=""/>
 
                 <img
