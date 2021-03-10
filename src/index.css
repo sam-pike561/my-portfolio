@@ -2,6 +2,7 @@
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100;1,300&display=swap");
 
+
 .cursive {
   font-family: "Montserrat", cursive;
   font-weight: 800;
@@ -14,5 +15,5 @@
 }
 
 .home-name {
-  font-size: 150px;
+  font-size: 100px;
 }

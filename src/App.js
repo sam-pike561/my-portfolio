@@ -3,8 +3,12 @@ import Home from './components/Home';
 import About from './components/About';
 import SinglePost from './components/SinglePost';
 import Post from './components/Post';
-import Project from './components/Project';
+// import Project from './components/Project';
 import NavBar from './components/NavBar';
+import Contact from './components/Contact';
+import Showcase from './components/Showcase';
+
+
 
 function App() {
   return (
@@ -15,7 +19,8 @@ function App() {
         <Route component={About} path='/about' />
         <Route component={SinglePost} path='/post/:slug' />
         <Route component={Post} path='/post' />
-        <Route component={Project} path='/project' />
+        <Route component={Showcase} path='/project' />
+        <Route component={Contact} path='/contact' />
       </Switch>
     </Router>
   );
